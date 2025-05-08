@@ -9,75 +9,75 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.670",
-      "prefLabel": {
-        "de": "Ingenieurwissenschaften allgemein"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.675",
-      "prefLabel": {
-        "de": "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.680",
-      "prefLabel": {
-        "de": "Bergbau, Hüttenwesen"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.690",
-      "prefLabel": {
-        "de": "Maschinenbau/Verfahrenstechnik"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.710",
-      "prefLabel": {
-        "de": "Elektrotechnik und Informationstechnik"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.720",
-      "prefLabel": {
-        "de": "Verkehrstechnik, Nautik"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.730",
-      "prefLabel": {
-        "de": "Architektur"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.740",
-      "prefLabel": {
-        "de": "Raumplanung"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.750",
-      "prefLabel": {
-        "de": "Bauingenieurwesen"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.760",
-      "prefLabel": {
-        "de": "Vermessungswesen"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.765",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/765",
       "prefLabel": {
         "de": "Informatik"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/08.770",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/670",
+      "prefLabel": {
+        "de": "Ingenieurwissenschaften allgemein"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/675",
+      "prefLabel": {
+        "de": "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/690",
+      "prefLabel": {
+        "de": "Maschinenbau/Verfahrenstechnik"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/680",
+      "prefLabel": {
+        "de": "Bergbau, Hüttenwesen"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/770",
       "prefLabel": {
         "de": "Materialwissenschaft und Werkstofftechnik"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/710",
+      "prefLabel": {
+        "de": "Elektrotechnik und Informationstechnik"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/720",
+      "prefLabel": {
+        "de": "Verkehrstechnik, Nautik"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/730",
+      "prefLabel": {
+        "de": "Architektur"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/740",
+      "prefLabel": {
+        "de": "Raumplanung"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/750",
+      "prefLabel": {
+        "de": "Bauingenieurwesen"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/760",
+      "prefLabel": {
+        "de": "Vermessungswesen"
       }
     }
   ],

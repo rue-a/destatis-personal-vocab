@@ -9,75 +9,75 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.220",
-      "prefLabel": {
-        "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.225",
-      "prefLabel": {
-        "de": "Regionalwissenschaften"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.230",
-      "prefLabel": {
-        "de": "Politikwissenschaft"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.235",
-      "prefLabel": {
-        "de": "Sozialwissenschaften/Soziologie"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.240",
-      "prefLabel": {
-        "de": "Sozialwesen"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250",
-      "prefLabel": {
-        "de": "Rechtswissenschaften"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.270",
-      "prefLabel": {
-        "de": "Verwaltungswissenschaften"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.290",
-      "prefLabel": {
-        "de": "Wirtschaftswissenschaften"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.310",
-      "prefLabel": {
-        "de": "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.315",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/315",
       "prefLabel": {
         "de": "Psychologie"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/320",
       "prefLabel": {
         "de": "Erziehungswissenschaften"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.325",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/220",
+      "prefLabel": {
+        "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/325",
       "prefLabel": {
         "de": "Kommunikationswissenschaft/Publizistik"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/225",
+      "prefLabel": {
+        "de": "Regionalwissenschaften"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/230",
+      "prefLabel": {
+        "de": "Politikwissenschaft"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/235",
+      "prefLabel": {
+        "de": "Sozialwissenschaften/Soziologie"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/240",
+      "prefLabel": {
+        "de": "Sozialwesen"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/250",
+      "prefLabel": {
+        "de": "Rechtswissenschaften"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/270",
+      "prefLabel": {
+        "de": "Verwaltungswissenschaften"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/290",
+      "prefLabel": {
+        "de": "Wirtschaftswissenschaften"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/310",
+      "prefLabel": {
+        "de": "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"
       }
     }
   ],
