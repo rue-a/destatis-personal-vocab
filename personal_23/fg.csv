@@ -1,12 +1,12 @@
 id,label
-01,Geisteswissenschaften
-02,Sport
-03,"Rechts-, Wirtschafts- und Sozialwissenschaften"
-04,"Mathematik, Naturwissenschaften"
-05,Humanmedizin/Gesundheitswissenschaften
-07,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"
-08,Ingenieurwissenschaften
-09,"Kunst, Kunstwissenschaft"
+1,Geisteswissenschaften
+2,Sport
+3,"Rechts-, Wirtschafts- und Sozialwissenschaften"
+4,"Mathematik, Naturwissenschaften"
+5,Humanmedizin/Gesundheitswissenschaften
+7,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"
+8,Ingenieurwissenschaften
+9,"Kunst, Kunstwissenschaft"
 10,Außerhalb der Studienbereichsgliederung/Sonstige Fächer
 15,Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)
 20,Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)

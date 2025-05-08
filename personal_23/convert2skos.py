@@ -7,8 +7,14 @@ BASE_URL = "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/persona
 
 # CSV-Dateien laden
 fg_df = pd.read_csv("personal_23/fg.csv", dtype=str)
+fg_df["id"] = fg_df["id"].str.zfill(2)
 luf_df = pd.read_csv("personal_23/luf.csv", dtype=str)
+luf_df["id"] = luf_df["id"].str.zfill(3)
+luf_df["parent_id"] = luf_df["parent_id"].str.zfill(2)
 fgb_df = pd.read_csv("personal_23/fgb.csv", dtype=str)
+fgb_df["id"] = fgb_df["id"].str.zfill(4)
+fgb_df["parent_id"] = fgb_df["parent_id"].str.zfill(3)
+
 
 # RDF Graph vorbereiten
 g = Graph()
@@ -37,7 +43,7 @@ g.add((scheme_uri, DCTERMS.license, Literal("Unbekannt", lang="de")))
 
 # Fächergruppen (FG)
 for _, row in fg_df.iterrows():
-    fg_id = row["id"].zfill(2)
+    fg_id = row["id"]
     fg_label = row["label"]
     fg_uri = URIRef(f"{DESTATIS}{fg_id}")
 
@@ -50,9 +56,9 @@ for _, row in fg_df.iterrows():
 
 # Lehr- und Forschungsbereiche (LuF)
 for _, row in luf_df.iterrows():
-    luf_id = row["id"].zfill(3)
+    luf_id = row["id"]
     luf_label = row["label"]
-    fg_id = row["parent_id"].zfill(2)
+    fg_id = row["parent_id"]
     luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
     fg_uri = URIRef(f"{DESTATIS}{fg_id}")
 
@@ -65,10 +71,10 @@ for _, row in luf_df.iterrows():
 
 # Fachgebiete (FGB)
 for _, row in fgb_df.iterrows():
-    fgb_id = row["id"].zfill(4)
+    fgb_id = row["id"]
     fgb_label = row["label"]
-    luf_id = row["parent_id"].zfill(3)
-    fg_id = luf_df.query(f"id == '{luf_id}'")["parent_id"].values[0].zfill(2)
+    luf_id = row["parent_id"]
+    fg_id = luf_df.query(f"id == '{luf_id}'")["parent_id"].values[0]
 
     fgb_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}.{fgb_id}")
     luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")

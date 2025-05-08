@@ -1,57 +1,57 @@
 id,label,parent_id
-0100,Geisteswissenschaften allgemein,010
-0120,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),010
-0200,Evang. Theologie allgemein,020
-0210,Altes Testament (ev.),020
-0215,Diakoniewissenschaft,020
-0230,Historische Theologie (ev.),020
-0220,Neues Testament (ev.),020
-0250,Praktische Theologie und Religionspädagogik (ev.),020
-0260,Religionsgeschichte und Missionswissenschaft (ev.),020
-0240,Systematische Theologie (ev.),020
-0300,Kath. Theologie allgemein,030
-0390,Altkatholische Theologie,030
-0310,Biblische Theologie (kath.),030
-0315,Caritaswissenschaft,030
-0320,Historische Theologie (kath.),030
-0350,Kanonistik (kath.),030
-0340,Praktische Theologie und Religionspädagogik (kath.),030
-0330,Systematische Theologie (kath.),030
-0400,Philosophie allgemein,040
-0420,Didaktik der Philosophie/der Ethik,040
-0425,Geschichte der Philosophie,040
-0426,Logik,040
-0410,Religionswissenschaft,040
-0430,Wissenschaftsforschung/-lehre,040
-0500,Geschichte allgemein,050
-0520,Alte Geschichte,050
-0570,Archäologie,050
-0580,Didaktik der Geschichte,050
-0585,Kultur- und Geistesgeschichte,050
-0550,"Länder-, Landesgeschichte",050
-0530,Mittelalterliche Geschichte,050
-0540,Neuere und neueste Geschichte,050
-0510,Ur- und Frühgeschichte,050
-0560,Wirtschafts- und Sozialgeschichte,050
-0595,Wissenschaftsgeschichte/Technikgeschichte,050
-0700,Informations- und Bibliothekswissenschaften allgemein,070
-0720,Archiv- und Dokumentationswissenschaft,070
-0710,Bibliothekswissenschaft (nicht für Verwaltungs-FH),070
-0730,Informationswissenschaft,070
-0800,Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein,080
-0820,Allgemeine und vergleichende Literaturwissenschaft,080
-0810,Allgemeine und vergleichende Sprachwissenschaft,080
-0830,"Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung",080
-0835,Computerlinguistik,080
-0840,Fremdsprachenausbildung (für Hörer aller Fakultäten),080
-0845,Indogermanistik,080
-0900,Altphilologie allgemein,090
-0930,Byzantinistik,090
-0960,Didaktik der Altphilologie,090
-0910,Griechische Philologie,090
-0920,Lateinische Philologie,090
-0940,Neugriechisch,090
-0950,Papyrologie,090
+100,Geisteswissenschaften allgemein,10
+120,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),10
+200,Evang. Theologie allgemein,20
+210,Altes Testament (ev.),20
+215,Diakoniewissenschaft,20
+230,Historische Theologie (ev.),20
+220,Neues Testament (ev.),20
+250,Praktische Theologie und Religionspädagogik (ev.),20
+260,Religionsgeschichte und Missionswissenschaft (ev.),20
+240,Systematische Theologie (ev.),20
+300,Kath. Theologie allgemein,30
+390,Altkatholische Theologie,30
+310,Biblische Theologie (kath.),30
+315,Caritaswissenschaft,30
+320,Historische Theologie (kath.),30
+350,Kanonistik (kath.),30
+340,Praktische Theologie und Religionspädagogik (kath.),30
+330,Systematische Theologie (kath.),30
+400,Philosophie allgemein,40
+420,Didaktik der Philosophie/der Ethik,40
+425,Geschichte der Philosophie,40
+426,Logik,40
+410,Religionswissenschaft,40
+430,Wissenschaftsforschung/-lehre,40
+500,Geschichte allgemein,50
+520,Alte Geschichte,50
+570,Archäologie,50
+580,Didaktik der Geschichte,50
+585,Kultur- und Geistesgeschichte,50
+550,"Länder-, Landesgeschichte",50
+530,Mittelalterliche Geschichte,50
+540,Neuere und neueste Geschichte,50
+510,Ur- und Frühgeschichte,50
+560,Wirtschafts- und Sozialgeschichte,50
+595,Wissenschaftsgeschichte/Technikgeschichte,50
+700,Informations- und Bibliothekswissenschaften allgemein,70
+720,Archiv- und Dokumentationswissenschaft,70
+710,Bibliothekswissenschaft (nicht für Verwaltungs-FH),70
+730,Informationswissenschaft,70
+800,Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein,80
+820,Allgemeine und vergleichende Literaturwissenschaft,80
+810,Allgemeine und vergleichende Sprachwissenschaft,80
+830,"Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung",80
+835,Computerlinguistik,80
+840,Fremdsprachenausbildung (für Hörer aller Fakultäten),80
+845,Indogermanistik,80
+900,Altphilologie allgemein,90
+930,Byzantinistik,90
+960,Didaktik der Altphilologie,90
+910,Griechische Philologie,90
+920,Lateinische Philologie,90
+940,Neugriechisch,90
+950,Papyrologie,90
 1000,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik) allgemein",100
 1040,Deutsch als Fremdsprache oder als Zweitsprache,100
 1080,Deutsche Literaturwissenschaft,100
