@@ -3,7 +3,7 @@ from rdflib import Graph, Namespace, URIRef, Literal, XSD
 from rdflib.namespace import RDF, SKOS, DCTERMS
 
 # Basis-URL
-BASE_URL = "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf"
+BASE_URL = "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik"
 # BASE_URL = "http://test.org"
 
 # CSV-Dateien laden
