@@ -68,6 +68,7 @@ for _, row in luf_df.iterrows():
     g.add((luf_uri, SKOS.notation, Literal(f"{fg_id}-{luf_id}")))
     g.add((luf_uri, SKOS.broader, fg_uri))
     g.add((fg_uri, SKOS.narrower, luf_uri))
+    g.add((luf_uri, SKOS.inScheme, scheme_uri))
 
 
 # Fachgebiete (FGB)
@@ -85,6 +86,7 @@ for _, row in fgb_df.iterrows():
     g.add((fgb_uri, SKOS.notation, Literal(f"{fg_id}-{luf_id}-{fgb_id}")))
     g.add((fgb_uri, SKOS.broader, luf_uri))
     g.add((luf_uri, SKOS.narrower, fgb_uri))
+    g.add((fgb_uri, SKOS.inScheme, scheme_uri))
 
 
 # Als Turtle speichern
