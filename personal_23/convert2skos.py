@@ -60,7 +60,7 @@ for _, row in luf_df.iterrows():
     luf_id = row["id"]
     luf_label = row["label"]
     fg_id = row["parent_id"]
-    luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
+    luf_uri = URIRef(f"{DESTATIS}{luf_id}")
     fg_uri = URIRef(f"{DESTATIS}{fg_id}")
 
     g.add((luf_uri, RDF.type, SKOS.Concept))
@@ -78,8 +78,8 @@ for _, row in fgb_df.iterrows():
     luf_id = row["parent_id"]
     fg_id = luf_df.query(f"id == '{luf_id}'")["parent_id"].values[0]
 
-    fgb_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}.{fgb_id}")
-    luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
+    fgb_uri = URIRef(f"{DESTATIS}{fgb_id}")
+    luf_uri = URIRef(f"{DESTATIS}{luf_id}")
 
     g.add((fgb_uri, RDF.type, SKOS.Concept))
     g.add((fgb_uri, SKOS.prefLabel, Literal(fgb_label, lang="de")))
