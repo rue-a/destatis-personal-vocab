@@ -2869,9 +2869,9 @@ destatis:09-830-8365 a skos:Concept ;
     skos:prefLabel "Sonstige Musikpraxis"@de .
 
 destatis:10 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:notation "10" ;
-    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de .
+    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:15-850 a skos:Concept ;
     skos:broader destatis:15 ;
@@ -3266,10 +3266,10 @@ destatis:01-197 a skos:Concept ;
     skos:prefLabel "Medienwissenschaft"@de .
 
 destatis:02 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:02-200 ;
     skos:notation "02" ;
-    skos:prefLabel "Sport"@de .
+    skos:prefLabel "Sport"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:03-325 a skos:Concept ;
     skos:broader destatis:03 ;
@@ -3438,13 +3438,13 @@ destatis:15-940 a skos:Concept ;
     skos:prefLabel "Soziale Einrichtungen"@de .
 
 destatis:20 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:20-970,
         destatis:20-980,
         destatis:20-986,
         destatis:20-990 ;
     skos:notation "20" ;
-    skos:prefLabel "Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)"@de .
+    skos:prefLabel "Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:20-990 a skos:Concept ;
     skos:broader destatis:20 ;
@@ -3506,14 +3506,14 @@ destatis:07-640 a skos:Concept ;
     skos:prefLabel "Forstwissenschaft, Holzwirtschaft"@de .
 
 destatis:09 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:09-780,
         destatis:09-790,
         destatis:09-800,
         destatis:09-820,
         destatis:09-830 ;
     skos:notation "09" ;
-    skos:prefLabel "Kunst, Kunstwissenschaft"@de .
+    skos:prefLabel "Kunst, Kunstwissenschaft"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:09-780 a skos:Concept ;
     skos:broader destatis:09 ;
@@ -3569,7 +3569,6 @@ destatis:04-390 a skos:Concept ;
     skos:prefLabel "Pharmazie"@de .
 
 destatis:05 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:05-440,
         destatis:05-445,
         destatis:05-450,
@@ -3577,7 +3576,8 @@ destatis:05 a skos:Concept ;
         destatis:05-490,
         destatis:05-520 ;
     skos:notation "05" ;
-    skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de .
+    skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:05-445 a skos:Concept ;
     skos:broader destatis:05 ;
@@ -3736,7 +3736,6 @@ destatis:01-120 a skos:Concept ;
     skos:prefLabel "Romanistik"@de .
 
 destatis:04 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:04-330,
         destatis:04-340,
         destatis:04-360,
@@ -3746,7 +3745,8 @@ destatis:04 a skos:Concept ;
         destatis:04-410,
         destatis:04-420 ;
     skos:notation "04" ;
-    skos:prefLabel "Mathematik, Naturwissenschaften"@de .
+    skos:prefLabel "Mathematik, Naturwissenschaften"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:04-340 a skos:Concept ;
     skos:broader destatis:04 ;
@@ -3828,7 +3828,6 @@ destatis:03-225 a skos:Concept ;
     skos:prefLabel "Regionalwissenschaften"@de .
 
 destatis:07 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:07-540,
         destatis:07-550,
         destatis:07-560,
@@ -3839,7 +3838,8 @@ destatis:07 a skos:Concept ;
         destatis:07-640,
         destatis:07-650 ;
     skos:notation "07" ;
-    skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de .
+    skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:07-560 a skos:Concept ;
     skos:broader destatis:07 ;
@@ -3975,7 +3975,7 @@ destatis:scheme a skos:ConceptScheme ;
     dcterms:creator "Statistisches Bundesamt"@de ;
     dcterms:license "Unbekannt"@de ;
     dcterms:title "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete"@de ;
-    skos:topConceptOf destatis:01,
+    skos:hasTopConcept destatis:01,
         destatis:02,
         destatis:03,
         destatis:04,
@@ -4036,7 +4036,6 @@ destatis:09-800 a skos:Concept ;
     skos:prefLabel "Gestaltung"@de .
 
 destatis:15 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:15-850,
         destatis:15-870,
         destatis:15-880,
@@ -4049,7 +4048,8 @@ destatis:15 a skos:Concept ;
         destatis:15-950,
         destatis:15-960 ;
     skos:notation "15" ;
-    skos:prefLabel "Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)"@de .
+    skos:prefLabel "Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:15-960 a skos:Concept ;
     skos:broader destatis:15 ;
@@ -4085,7 +4085,6 @@ destatis:01-130 a skos:Concept ;
     skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik"@de .
 
 destatis:03 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:03-220,
         destatis:03-225,
         destatis:03-230,
@@ -4099,7 +4098,8 @@ destatis:03 a skos:Concept ;
         destatis:03-320,
         destatis:03-325 ;
     skos:notation "03" ;
-    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de .
+    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:04-400 a skos:Concept ;
     skos:broader destatis:04 ;
@@ -4170,7 +4170,6 @@ destatis:07-580 a skos:Concept ;
     skos:prefLabel "Klinisch-Praktische Veterinärmedizin"@de .
 
 destatis:08 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:08-670,
         destatis:08-675,
         destatis:08-680,
@@ -4184,7 +4183,8 @@ destatis:08 a skos:Concept ;
         destatis:08-765,
         destatis:08-770 ;
     skos:notation "08" ;
-    skos:prefLabel "Ingenieurwissenschaften"@de .
+    skos:prefLabel "Ingenieurwissenschaften"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:09-830 a skos:Concept ;
     skos:broader destatis:09 ;
@@ -4239,7 +4239,6 @@ destatis:03-320 a skos:Concept ;
     skos:prefLabel "Erziehungswissenschaften"@de .
 
 destatis:01 a skos:Concept ;
-    skos:hasTopConcept destatis:scheme ;
     skos:narrower destatis:01-010,
         destatis:01-020,
         destatis:01-030,
@@ -4257,7 +4256,8 @@ destatis:01 a skos:Concept ;
         destatis:01-195,
         destatis:01-197 ;
     skos:notation "01" ;
-    skos:prefLabel "Geisteswissenschaften"@de .
+    skos:prefLabel "Geisteswissenschaften"@de ;
+    skos:topConceptOf destatis:scheme .
 
 destatis:04-370 a skos:Concept ;
     skos:broader destatis:04 ;

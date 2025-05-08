@@ -51,8 +51,8 @@ for _, row in fg_df.iterrows():
     g.add((fg_uri, RDF.type, SKOS.Concept))
     g.add((fg_uri, SKOS.prefLabel, Literal(fg_label, lang="de")))
     g.add((fg_uri, SKOS.notation, Literal(fg_id)))
-    g.add((fg_uri, SKOS.hasTopConcept, scheme_uri))
-    g.add((scheme_uri, SKOS.topConceptOf, fg_uri))
+    g.add((fg_uri, SKOS.topConceptOf, scheme_uri))
+    g.add((scheme_uri, SKOS.hasTopConcept, fg_uri))
 
 
 # Lehr- und Forschungsbereiche (LuF)
@@ -85,6 +85,7 @@ for _, row in fgb_df.iterrows():
     g.add((fgb_uri, SKOS.notation, Literal(f"{fg_id}-{luf_id}-{fgb_id}")))
     g.add((fgb_uri, SKOS.broader, luf_uri))
     g.add((luf_uri, SKOS.narrower, fgb_uri))
+
 
 # Als Turtle speichern
 g.serialize("destatis_personal_skos.ttl", format="turtle")
