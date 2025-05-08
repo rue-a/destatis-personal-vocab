@@ -578,7 +578,7 @@ destatis:01.197.0130 a skos:Concept ;
     skos:prefLabel "Medienwissenschaft"@de .
 
 destatis:02 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:02.200 ;
     skos:notation "02" ;
     skos:prefLabel "Sport"@de .
@@ -3374,7 +3374,7 @@ destatis:08.760 a skos:Concept ;
     skos:prefLabel "Vermessungswesen"@de .
 
 destatis:20 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:20.970,
         destatis:20.980,
         destatis:20.986,
@@ -3428,7 +3428,7 @@ destatis:04.330 a skos:Concept ;
     skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de .
 
 destatis:09 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:09.780,
         destatis:09.790,
         destatis:09.800,
@@ -3475,7 +3475,7 @@ destatis:03.230 a skos:Concept ;
     skos:prefLabel "Politikwissenschaft"@de .
 
 destatis:05 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:05.440,
         destatis:05.445,
         destatis:05.450,
@@ -3647,7 +3647,7 @@ destatis:01.090 a skos:Concept ;
     skos:prefLabel "Altphilologie (klassische Philologie)"@de .
 
 destatis:04 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:04.330,
         destatis:04.340,
         destatis:04.360,
@@ -3787,7 +3787,7 @@ destatis:04.420 a skos:Concept ;
     skos:prefLabel "Geographie"@de .
 
 destatis:07 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:07.540,
         destatis:07.550,
         destatis:07.560,
@@ -3825,12 +3825,6 @@ destatis:15.930 a skos:Concept ;
         destatis:15.930.9360 ;
     skos:notation "15.930" ;
     skos:prefLabel "Zentrale Betriebs- und Versorgungseinrichtungen"@de .
-
-<https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> a skos:ConceptScheme ;
-    ns1:created "2024-01-11"^^xsd:date ;
-    ns1:creator "Statistisches Bundesamt"@de ;
-    ns1:license "Unbekannt"@de ;
-    ns1:title "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete"@de .
 
 destatis:03.225 a skos:Concept ;
     skos:broader destatis:03 ;
@@ -3930,6 +3924,12 @@ destatis:15.920 a skos:Concept ;
     skos:notation "15.920" ;
     skos:prefLabel "Zentrale wissenschaftliche Einrichtungen"@de .
 
+destatis:scheme a skos:ConceptScheme ;
+    ns1:created "2024-01-11"^^xsd:date ;
+    ns1:creator "Statistisches Bundesamt"@de ;
+    ns1:license "Unbekannt"@de ;
+    ns1:title "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete"@de .
+
 destatis:03.315 a skos:Concept ;
     skos:broader destatis:03 ;
     skos:narrower destatis:03.315.1700,
@@ -3976,7 +3976,7 @@ destatis:08.710 a skos:Concept ;
     skos:prefLabel "Elektrotechnik und Informationstechnik"@de .
 
 destatis:15 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:15.850,
         destatis:15.870,
         destatis:15.880,
@@ -4008,7 +4008,7 @@ destatis:01.050 a skos:Concept ;
     skos:prefLabel "Geschichte"@de .
 
 destatis:03 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:03.220,
         destatis:03.225,
         destatis:03.230,
@@ -4041,7 +4041,7 @@ destatis:07.620 a skos:Concept ;
     skos:prefLabel "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"@de .
 
 destatis:08 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:08.670,
         destatis:08.675,
         destatis:08.680,
@@ -4227,7 +4227,7 @@ destatis:03.320 a skos:Concept ;
     skos:prefLabel "Erziehungswissenschaften"@de .
 
 destatis:01 a skos:Concept ;
-    skos:inScheme <https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme> ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:01.010,
         destatis:01.020,
         destatis:01.030,
