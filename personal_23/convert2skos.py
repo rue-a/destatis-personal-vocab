@@ -60,12 +60,12 @@ for _, row in luf_df.iterrows():
     luf_id = row["id"]
     luf_label = row["label"]
     fg_id = row["parent_id"]
-    luf_uri = URIRef(f"{DESTATIS}{luf_id}")
+    luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
     fg_uri = URIRef(f"{DESTATIS}{fg_id}")
 
     g.add((luf_uri, RDF.type, SKOS.Concept))
     g.add((luf_uri, SKOS.prefLabel, Literal(luf_label, lang="de")))
-    g.add((luf_uri, SKOS.notation, Literal(f"{fg_id}.{luf_id}")))
+    g.add((luf_uri, SKOS.notation, Literal(f"{luf_id}")))
     g.add((luf_uri, SKOS.broader, fg_uri))
     g.add((fg_uri, SKOS.narrower, luf_uri))
     g.add((luf_uri, SKOS.inScheme, DESTATIS.scheme))
@@ -78,12 +78,12 @@ for _, row in fgb_df.iterrows():
     luf_id = row["parent_id"]
     fg_id = luf_df.query(f"id == '{luf_id}'")["parent_id"].values[0]
 
-    fgb_uri = URIRef(f"{DESTATIS}{fgb_id}")
-    luf_uri = URIRef(f"{DESTATIS}{luf_id}")
+    fgb_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}.{fgb_id}")
+    luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
 
     g.add((fgb_uri, RDF.type, SKOS.Concept))
     g.add((fgb_uri, SKOS.prefLabel, Literal(fgb_label, lang="de")))
-    g.add((fgb_uri, SKOS.notation, Literal(f"{fg_id}.{luf_id}.{fgb_id}")))
+    g.add((fgb_uri, SKOS.notation, Literal(f"{fgb_id}")))
     g.add((fgb_uri, SKOS.broader, luf_uri))
     g.add((luf_uri, SKOS.narrower, fgb_uri))
     g.add((fgb_uri, SKOS.inScheme, DESTATIS.scheme))
