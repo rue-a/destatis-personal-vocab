@@ -53,6 +53,7 @@ for _, row in fg_df.iterrows():
     g.add((fg_uri, SKOS.notation, Literal(fg_id)))
     g.add((fg_uri, SKOS.topConceptOf, scheme_uri))
     g.add((scheme_uri, SKOS.hasTopConcept, fg_uri))
+    g.add((fg_uri, SKOS.inScheme, scheme_uri))
 
 
 # Lehr- und Forschungsbereiche (LuF)

@@ -3442,6 +3442,7 @@ destatis:09-830-8365 a skos:Concept ;
     skos:prefLabel "Sonstige Musikpraxis"@de .
 
 destatis:10 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:notation "10" ;
     skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
     skos:topConceptOf destatis:scheme .
@@ -3917,6 +3918,7 @@ destatis:01-197 a skos:Concept ;
     skos:prefLabel "Medienwissenschaft"@de .
 
 destatis:02 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:02-200 ;
     skos:notation "02" ;
     skos:prefLabel "Sport"@de ;
@@ -4111,6 +4113,7 @@ destatis:15-940 a skos:Concept ;
     skos:prefLabel "Soziale Einrichtungen"@de .
 
 destatis:20 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:20-970,
         destatis:20-980,
         destatis:20-986,
@@ -4185,6 +4188,7 @@ destatis:07-640 a skos:Concept ;
     skos:prefLabel "Forstwissenschaft, Holzwirtschaft"@de .
 
 destatis:09 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:09-780,
         destatis:09-790,
         destatis:09-800,
@@ -4253,6 +4257,7 @@ destatis:04-390 a skos:Concept ;
     skos:prefLabel "Pharmazie"@de .
 
 destatis:05 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:05-440,
         destatis:05-445,
         destatis:05-450,
@@ -4433,6 +4438,7 @@ destatis:01-120 a skos:Concept ;
     skos:prefLabel "Romanistik"@de .
 
 destatis:04 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:04-330,
         destatis:04-340,
         destatis:04-360,
@@ -4531,6 +4537,7 @@ destatis:03-225 a skos:Concept ;
     skos:prefLabel "Regionalwissenschaften"@de .
 
 destatis:07 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:07-540,
         destatis:07-550,
         destatis:07-560,
@@ -4734,6 +4741,7 @@ destatis:09-800 a skos:Concept ;
     skos:prefLabel "Gestaltung"@de .
 
 destatis:15 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:15-850,
         destatis:15-870,
         destatis:15-880,
@@ -4785,6 +4793,7 @@ destatis:01-130 a skos:Concept ;
     skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik"@de .
 
 destatis:03 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:03-220,
         destatis:03-225,
         destatis:03-230,
@@ -4874,6 +4883,7 @@ destatis:07-580 a skos:Concept ;
     skos:prefLabel "Klinisch-Praktische Veterinärmedizin"@de .
 
 destatis:08 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:08-670,
         destatis:08-675,
         destatis:08-680,
@@ -4946,6 +4956,7 @@ destatis:03-320 a skos:Concept ;
     skos:prefLabel "Erziehungswissenschaften"@de .
 
 destatis:01 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
     skos:narrower destatis:01-010,
         destatis:01-020,
         destatis:01-030,
