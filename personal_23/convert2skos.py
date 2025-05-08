@@ -3,7 +3,8 @@ from rdflib import Graph, Namespace, URIRef, Literal, XSD
 from rdflib.namespace import RDF, SKOS, DCTERMS
 
 # Basis-URL
-BASE_URL = "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf"
+# BASE_URL = "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf"
+BASE_URL = "http://test.org"
 
 # CSV-Dateien laden
 fg_df = pd.read_csv("personal_23/fg.csv", dtype=str)
@@ -23,14 +24,12 @@ g.bind("skos", SKOS)
 g.bind("dcterms", DCTERMS)
 g.bind("destatis", DESTATIS)
 
-# ConceptScheme-URI definieren
-scheme_uri = URIRef(BASE_URL + "/scheme")
 
 # ConceptScheme erzeugen
-g.add((scheme_uri, RDF.type, SKOS.ConceptScheme))
+g.add((DESTATIS.scheme, RDF.type, SKOS.ConceptScheme))
 g.add(
     (
-        scheme_uri,
+        DESTATIS.scheme,
         DCTERMS.title,
         Literal(
             "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
@@ -38,9 +37,9 @@ g.add(
         ),
     )
 )
-g.add((scheme_uri, DCTERMS.creator, Literal("Statistisches Bundesamt", lang="de")))
-g.add((scheme_uri, DCTERMS.created, Literal("2024-01-11", datatype=XSD.date)))
-g.add((scheme_uri, DCTERMS.license, Literal("Unbekannt", lang="de")))
+g.add((DESTATIS.scheme, DCTERMS.creator, Literal("Statistisches Bundesamt", lang="de")))
+g.add((DESTATIS.scheme, DCTERMS.created, Literal("2024-01-11", datatype=XSD.date)))
+g.add((DESTATIS.scheme, DCTERMS.license, Literal("Unbekannt", lang="de")))
 
 # Fächergruppen (FG)
 for _, row in fg_df.iterrows():
@@ -51,9 +50,9 @@ for _, row in fg_df.iterrows():
     g.add((fg_uri, RDF.type, SKOS.Concept))
     g.add((fg_uri, SKOS.prefLabel, Literal(fg_label, lang="de")))
     g.add((fg_uri, SKOS.notation, Literal(fg_id)))
-    g.add((fg_uri, SKOS.topConceptOf, scheme_uri))
-    g.add((scheme_uri, SKOS.hasTopConcept, fg_uri))
-    g.add((fg_uri, SKOS.inScheme, scheme_uri))
+    g.add((fg_uri, SKOS.topConceptOf, DESTATIS.scheme))
+    g.add((DESTATIS.scheme, SKOS.hasTopConcept, fg_uri))
+    g.add((fg_uri, SKOS.inScheme, DESTATIS.scheme))
 
 
 # Lehr- und Forschungsbereiche (LuF)
@@ -69,7 +68,7 @@ for _, row in luf_df.iterrows():
     g.add((luf_uri, SKOS.notation, Literal(f"{fg_id}-{luf_id}")))
     g.add((luf_uri, SKOS.broader, fg_uri))
     g.add((fg_uri, SKOS.narrower, luf_uri))
-    g.add((luf_uri, SKOS.inScheme, scheme_uri))
+    g.add((luf_uri, SKOS.inScheme, DESTATIS.scheme))
 
 
 # Fachgebiete (FGB)
@@ -87,7 +86,7 @@ for _, row in fgb_df.iterrows():
     g.add((fgb_uri, SKOS.notation, Literal(f"{fg_id}-{luf_id}-{fgb_id}")))
     g.add((fgb_uri, SKOS.broader, luf_uri))
     g.add((luf_uri, SKOS.narrower, fgb_uri))
-    g.add((fgb_uri, SKOS.inScheme, scheme_uri))
+    g.add((fgb_uri, SKOS.inScheme, DESTATIS.scheme))
 
 
 # Als Turtle speichern
