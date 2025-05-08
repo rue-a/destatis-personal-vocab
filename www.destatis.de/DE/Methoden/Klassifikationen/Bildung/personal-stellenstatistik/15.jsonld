@@ -9,67 +9,67 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/850",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.850",
       "prefLabel": {
         "de": "Zentrale Einrichtungen der Berufsakademien"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/890",
-      "prefLabel": {
-        "de": "Zentral verwaltete Hörsäle und Lehrräume"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/870",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.870",
       "prefLabel": {
         "de": "Hochschule insgesamt"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/880",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.880",
       "prefLabel": {
         "de": "Zentrale Hochschulverwaltung"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/900",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.890",
+      "prefLabel": {
+        "de": "Zentral verwaltete Hörsäle und Lehrräume"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.900",
       "prefLabel": {
         "de": "Zentralbibliothek"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/910",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.910",
       "prefLabel": {
         "de": "Hochschulrechenzentrum"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/920",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.920",
       "prefLabel": {
         "de": "Zentrale wissenschaftliche Einrichtungen"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/930",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.930",
       "prefLabel": {
         "de": "Zentrale Betriebs- und Versorgungseinrichtungen"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/940",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.940",
       "prefLabel": {
         "de": "Soziale Einrichtungen"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/950",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.950",
       "prefLabel": {
         "de": "Übrige Ausbildungseinrichtungen"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/960",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/15.960",
       "prefLabel": {
         "de": "Mit der Hochschule verbundene sowie hochschulfremde Einrichtungen"
       }

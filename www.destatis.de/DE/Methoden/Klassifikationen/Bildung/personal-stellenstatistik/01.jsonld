@@ -9,99 +9,99 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/010",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.010",
       "prefLabel": {
         "de": "Geisteswissenschaften allgemein"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/197",
-      "prefLabel": {
-        "de": "Medienwissenschaft"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/020",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.020",
       "prefLabel": {
         "de": "Evangelische Theologie"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/030",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.030",
       "prefLabel": {
         "de": "Katholische Theologie"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/040",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.040",
       "prefLabel": {
         "de": "Philosophie"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/050",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.050",
       "prefLabel": {
         "de": "Geschichte"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/070",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.070",
       "prefLabel": {
         "de": "Informations- und Bibliothekswissenschaften"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/080",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.080",
       "prefLabel": {
         "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/090",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.090",
       "prefLabel": {
         "de": "Altphilologie (klassische Philologie)"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/100",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.100",
       "prefLabel": {
         "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/110",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.110",
       "prefLabel": {
         "de": "Anglistik, Amerikanistik"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/120",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.120",
       "prefLabel": {
         "de": "Romanistik"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/130",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.130",
       "prefLabel": {
         "de": "Slawistik, Baltistik, Finno-Ugristik"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/140",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140",
       "prefLabel": {
         "de": "Sonstige Sprach- und Kulturwissenschaften"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/160",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.160",
       "prefLabel": {
         "de": "Kulturwissenschaften i.e.S."
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/195",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.195",
       "prefLabel": {
         "de": "Islamische Studien/Islamische Theologie"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.197",
+      "prefLabel": {
+        "de": "Medienwissenschaft"
       }
     }
   ],

@@ -9,31 +9,31 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/780",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/09.780",
       "prefLabel": {
         "de": "Kunst, Kunstwissenschaft allgemein"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/790",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/09.790",
       "prefLabel": {
         "de": "Bildende Kunst"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/800",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/09.800",
       "prefLabel": {
         "de": "Gestaltung"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/820",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/09.820",
       "prefLabel": {
         "de": "Darst. Kunst, Film und Fernsehen, Theaterwissenschaft"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/830",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/09.830",
       "prefLabel": {
         "de": "Musik, Musikwissenschaft"
       }

@@ -9,25 +9,25 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/970",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/20.970",
       "prefLabel": {
         "de": "Kliniken insgesamt, Zentrale Dienste"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/980",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/20.980",
       "prefLabel": {
         "de": "Soziale Einrichtungen der Kliniken"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/986",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/20.986",
       "prefLabel": {
         "de": "Übrige Ausbildungseinrichtungen der Kliniken"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/990",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/20.990",
       "prefLabel": {
         "de": "Mit den Kliniken verbundene sowie klinikfremde Einrichtungen"
       }

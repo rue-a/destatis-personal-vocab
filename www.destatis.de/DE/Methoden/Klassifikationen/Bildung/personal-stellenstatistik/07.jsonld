@@ -9,55 +9,55 @@
   ],
   "narrower": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/540",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.540",
       "prefLabel": {
         "de": "Veterinärmedizin allgemein"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/550",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.550",
       "prefLabel": {
         "de": "Vorklinische Veterinärmedizin"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/560",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.560",
       "prefLabel": {
         "de": "Klinisch-Theoretische Veterinärmedizin"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/580",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.580",
       "prefLabel": {
         "de": "Klinisch-Praktische Veterinärmedizin"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/610",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.610",
       "prefLabel": {
         "de": "Agrar-, Forst- und Ernährungswissenschaften allgemein"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/620",
-      "prefLabel": {
-        "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"
-      }
-    },
-    {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/615",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.615",
       "prefLabel": {
         "de": "Landespflege, Umweltgestaltung"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/640",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.620",
+      "prefLabel": {
+        "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"
+      }
+    },
+    {
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.640",
       "prefLabel": {
         "de": "Forstwissenschaft, Holzwirtschaft"
       }
     },
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/650",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/07.650",
       "prefLabel": {
         "de": "Ernährungs- und Haushaltswissenschaften"
       }
