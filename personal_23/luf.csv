@@ -1,0 +1,85 @@
+id,label,parent_id
+010,Geisteswissenschaften allgemein,01
+020,Evangelische Theologie,01
+030,Katholische Theologie,01
+040,Philosophie,01
+050,Geschichte,01
+070,Informations- und Bibliothekswissenschaften,01
+080,Allgemeine und vergleichende Literatur- und Sprachwissenschaft,01
+090,Altphilologie (klassische Philologie),01
+100,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",01
+110,"Anglistik, Amerikanistik",01
+120,Romanistik,01
+130,"Slawistik, Baltistik, Finno-Ugristik",01
+140,Sonstige Sprach- und Kulturwissenschaften,01
+160,Kulturwissenschaften i.e.S.,01
+195,Islamische Studien/Islamische Theologie,01
+197,Medienwissenschaft,01
+200,Sport,02
+220,"Rechts-, Wirtschafts- und Sozialwissenschaften allgemein",03
+225,Regionalwissenschaften,03
+230,Politikwissenschaft,03
+235,Sozialwissenschaften/Soziologie,03
+240,Sozialwesen,03
+250,Rechtswissenschaften,03
+270,Verwaltungswissenschaften,03
+290,Wirtschaftswissenschaften,03
+310,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,03
+315,Psychologie,03
+320,Erziehungswissenschaften,03
+325,Kommunikationswissenschaft/Publizistik,03
+330,"Mathematik, Naturwissenschaften allgemein",04
+340,Mathematik,04
+360,"Physik, Astronomie",04
+370,Chemie,04
+390,Pharmazie,04
+400,Biologie,04
+410,Geowissenschaften (ohne Geographie),04
+420,Geographie,04
+440,Humanmedizin allgemein,05
+445,Gesundheitswissenschaften,05
+450,Vorklinische Humanmedizin (einschl. Zahnmedizin),05
+470,Klinisch-Theoretische Humanmedizin (einschl. Zahnmedizin),05
+490,Klinisch-Praktische Humanmedizin (ohne Zahnmedizin),05
+520,Zahnmedizin (klinisch-praktisch),05
+540,Veterinärmedizin allgemein,07
+550,Vorklinische Veterinärmedizin,07
+560,Klinisch-Theoretische Veterinärmedizin,07
+580,Klinisch-Praktische Veterinärmedizin,07
+610,"Agrar-, Forst- und Ernährungswissenschaften allgemein",07
+615,"Landespflege, Umweltgestaltung",07
+620,"Agrarwissenschaften, Lebensmittel- und Getränketechnologie",07
+640,"Forstwissenschaft, Holzwirtschaft",07
+650,Ernährungs- und Haushaltswissenschaften,07
+670,Ingenieurwissenschaften allgemein,08
+675,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,08
+680,"Bergbau, Hüttenwesen",08
+690,Maschinenbau/Verfahrenstechnik,08
+710,Elektrotechnik und Informationstechnik,08
+720,"Verkehrstechnik, Nautik",08
+730,Architektur,08
+740,Raumplanung,08
+750,Bauingenieurwesen,08
+760,Vermessungswesen,08
+765,Informatik,08
+770,Materialwissenschaft und Werkstofftechnik,08
+780,"Kunst, Kunstwissenschaft allgemein",09
+790,Bildende Kunst,09
+800,Gestaltung,09
+820,"Darst. Kunst, Film und Fernsehen, Theaterwissenschaft",09
+830,"Musik, Musikwissenschaft",09
+850,Zentrale Einrichtungen der Berufsakademien,15
+870,Hochschule insgesamt,15
+880,Zentrale Hochschulverwaltung,15
+890,Zentral verwaltete Hörsäle und Lehrräume,15
+900,Zentralbibliothek,15
+910,Hochschulrechenzentrum,15
+920,Zentrale wissenschaftliche Einrichtungen,15
+930,Zentrale Betriebs- und Versorgungseinrichtungen,15
+940,Soziale Einrichtungen,15
+950,Übrige Ausbildungseinrichtungen,15
+960,Mit der Hochschule verbundene sowie hochschulfremde Einrichtungen,15
+970,"Kliniken insgesamt, Zentrale Dienste",20
+980,Soziale Einrichtungen der Kliniken,20
+986,Übrige Ausbildungseinrichtungen der Kliniken,20
+990,Mit den Kliniken verbundene sowie klinikfremde Einrichtungen,20
