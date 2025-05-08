@@ -65,7 +65,7 @@
   ],
   "inScheme": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme",
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf/scheme",
       "title": {
         "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete"
       }
@@ -73,7 +73,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf#scheme"
+      "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik.pdf/scheme"
     }
   ],
   "@context": {
