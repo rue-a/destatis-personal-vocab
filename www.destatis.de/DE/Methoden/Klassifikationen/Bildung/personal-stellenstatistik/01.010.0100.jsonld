@@ -13,6 +13,21 @@
       "de": "Geisteswissenschaften allgemein"
     }
   },
+  "relatedMatch": [
+    {
+      "id": "http:ex.org/test3"
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "http:ex.org/test2"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http:ex.org/test1"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
