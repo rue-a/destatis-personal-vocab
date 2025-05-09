@@ -13,7 +13,7 @@ searchableAttributes:
   - "broader"
   - "narrower"
 ui:
-  title: "SkoHub Vocabs" # Title is mandatory
+  title: "Destatis Fächersystematiken (Come2Data Version)" # Title is mandatory
   logo: "skohub-signet-color.svg" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"

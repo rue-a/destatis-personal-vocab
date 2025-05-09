@@ -3,8 +3,11 @@ from rdflib import Graph, Namespace, URIRef, Literal, XSD
 from rdflib.namespace import RDF, SKOS, DCTERMS
 
 # Basis-URL
-BASE_URL = "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik"
-# BASE_URL = "http://test.org"
+HOSTING_DOMAIN = "https://rue-a.github.io/destatis-personal-vocab"
+CONCEPTS_DOMAIN = (
+    "www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik"
+)
+BASE_URL = f"{HOSTING_DOMAIN}/{CONCEPTS_DOMAIN}"
 
 # CSV-Dateien laden
 fg_df = pd.read_csv("personal_23/fg.csv", dtype=str)
