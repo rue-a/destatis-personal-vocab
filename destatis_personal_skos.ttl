@@ -7,7 +7,10 @@ destatis:01.010.0100 a skos:Concept ;
     skos:broader destatis:01.010 ;
     skos:inScheme destatis:scheme ;
     skos:notation "0100" ;
-    skos:prefLabel "Geisteswissenschaften allgemein"@de .
+    skos:prefLabel "Geisteswissenschaften allgemein"@de;
+    skos:exactMatch <http:ex.org/test1>;
+    skos:closeMatch <http:ex.org/test2> ;
+    skos:relatedMatch <http:ex.org/test3> ;
 
 destatis:01.010.0120 a skos:Concept ;
     skos:broader destatis:01.010 ;
