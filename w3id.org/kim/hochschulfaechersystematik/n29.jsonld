@@ -1,0 +1,308 @@
+{
+  "id": "https://w3id.org/kim/hochschulfaechersystematik/n29",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Verwaltungswissenschaften",
+    "en": "Administrative Sciences",
+    "uk": "Управління та адміністрування"
+  },
+  "notation": [
+    "29"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n168",
+      "prefLabel": {
+        "de": "Justizvollzug",
+        "en": "Law Enforcement",
+        "uk": "Правоохоронна діяльність"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n172",
+      "prefLabel": {
+        "de": "Verwaltungswissenschaft/-wesen",
+        "en": "Administrative Science/Public Administration",
+        "uk": "Управлінські науки/Публічне адміністрування"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n255",
+      "prefLabel": {
+        "de": "Archivwesen",
+        "en": "Archive Studies",
+        "uk": "Архівна справа"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n256",
+      "prefLabel": {
+        "de": "Rechtspflege",
+        "en": "Administration of Justice",
+        "uk": "Правосуддя"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n257",
+      "prefLabel": {
+        "de": "Arbeits- und Berufsberatung",
+        "en": "Occupational Guidance and Career Counselling",
+        "uk": "Профорієнтація та розвиток кар'єри"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n258",
+      "prefLabel": {
+        "de": "Arbeitsverwaltung",
+        "en": "Labour Administration",
+        "uk": "Управління трудовими ресурсами"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n259",
+      "prefLabel": {
+        "de": "Auswärtige Angelegenheiten",
+        "en": "Foreign Affairs Administration",
+        "uk": "Міжнародні відносини"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n260",
+      "prefLabel": {
+        "de": "Bundeswehrverwaltung",
+        "en": "Armed Forces Administration",
+        "uk": "Військове управління"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n261",
+      "prefLabel": {
+        "de": "Innere Verwaltung",
+        "en": "Internal Administration",
+        "uk": "Внутрішнє адміністрування"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n262",
+      "prefLabel": {
+        "de": "Bibliothekswesen",
+        "en": "Librarianship",
+        "uk": "Бібліотечна справа"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n263",
+      "prefLabel": {
+        "de": "Polizei/Verfassungsschutz",
+        "en": "Police/Protection of the Constitution",
+        "uk": "Поліція/Захист Конституції"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n264",
+      "prefLabel": {
+        "de": "Sozialversicherung",
+        "en": "Social Security Administration",
+        "uk": "Управління соціальним захистом"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n265",
+      "prefLabel": {
+        "de": "Bankwesen",
+        "en": "Banking",
+        "uk": "Банківська справа"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n266",
+      "prefLabel": {
+        "de": "Finanzverwaltung",
+        "en": "Financial Administration",
+        "uk": "Управління фінансами"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n268",
+      "prefLabel": {
+        "de": "Verkehrswesen",
+        "en": "Transportation Systems",
+        "uk": "Транспортні системи"
+      }
+    },
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/n269",
+      "prefLabel": {
+        "de": "Zoll- und Steuerverwaltung",
+        "en": "Customs and Tax Administration",
+        "uk": "Управління митною та податковою справою"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/kim/hochschulfaechersystematik/n3",
+    "prefLabel": {
+      "de": "Rechts-, Wirtschafts- und Sozialwissenschaften",
+      "en": "Law, Economics and Social Sciences",
+      "uk": "Право, економіка та суспільні науки"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/scheme",
+      "title": {
+        "de": "Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://w3id.org/kim/hochschulfaechersystematik/scheme"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
